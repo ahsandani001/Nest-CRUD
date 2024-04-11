@@ -1,0 +1,13 @@
+/* eslint-disable @typescript-eslint/no-empty-function */
+import { Injectable } from '@nestjs/common';
+
+@Injectable()
+export class AuthService {
+  login() {
+    return 'login';
+  }
+
+  signup() {
+    return 'signup';
+  }
+}
